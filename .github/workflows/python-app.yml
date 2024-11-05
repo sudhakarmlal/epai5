@@ -19,5 +19,6 @@ jobs:
         pip install flake8 pytest
     - name: Test with unittest
       run: |
-        pytest 17-Sets/test_assignment1.py
-        pytest 17-Sets/test_assignment2.py
+        pytest Session17/Sets-Dictionaries/test_assignment1.py
+
+        pytest Session17/Sets-Dictionaries/test_assignment2.py
